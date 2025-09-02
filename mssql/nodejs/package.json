@@ -1,0 +1,6 @@
+{
+  "name": "learn-nodejs-mssql",
+  "version": "0.1.0",
+  "packageManager": "yarn@4.9.4",
+  "private": true
+}
