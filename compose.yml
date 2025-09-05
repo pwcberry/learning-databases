@@ -1,6 +1,7 @@
 services:
-  database:
-    image: mcr.microsoft.com/mssql/server:2022-latest
+  mssql:
+    build:
+      context: ./db/mssql/
     container_name: mssql-2022
     restart: always
     ports:
